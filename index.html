@@ -1,1 +1,117 @@
-Portafolio Digital CC.SS. - Grupo 7
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Digital CC.SS. - Grupo 7</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --secondary: #0d9488;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 { margin: 0; font-size: 2.2rem; }
+    header p { font-size: 1.1rem; opacity: 0.9; margin-top: 0.5rem; }
+    
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      border-left: 5px solid var(--secondary);
+    }
+    .card h2 { color: var(--primary); margin-top: 0; }
+    
+    .btn {
+      display: inline-block;
+      background-color: var(--primary);
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 0.5rem;
+      transition: background 0.3s;
+    }
+    .btn:hover { background-color: var(--secondary); }
+    
+    audio {
+      width: 100%;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bitácora y Portafolio Digital</h1>
+    <p>Gestión de Contenidos Digitales y del Conocimiento · Grupo 7</p>
+  </header>
+
+  <div class="container">
+    
+    <!-- Presentación del Grupo -->
+    <div class="card">
+      <h2>👥 Integrantes del Equipo</h2>
+      <p>Bienvenido a nuestra expedición interactiva. Aquí presentamos las evidencias, actividades y podcast desarrollados en el curso.</p>
+    </div>
+
+    <!-- Reproductor de Audio (Podcast) -->
+    <div class="card">
+      <h2>🎙️ Podcast Completo - Grupo 7</h2>
+      <p>Escucha nuestro episodio grabado en equipo:</p>
+      <audio controls>
+        <source src="PODCAST Completo GRUPO 7.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+    </div>
+
+    <!-- Guía y Documentos -->
+    <div class="card">
+      <h2>📄 Evidencias y Documentos</h2>
+      <p>Accede a los archivos de trabajo desarrollados durante las sesiones:</p>
+      <ul>
+        <li><strong>Sesión 1:</strong> Contenidos Digitales</li>
+        <li><strong>Sesión 2:</strong> Gestión de Contenidos</li>
+        <li><strong>Sesión 3:</strong> Herramientas Científicas y Bibliométricas</li>
+        <li><strong>Sesión 4:</strong> Guión de Podcast</li>
+      </ul>
+      <a href="GUION-PODCAST -sesión 4.pdf" target="_blank" class="btn">Ver Guión PDF</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Grupo 7 - Segunda Especialidad en Didáctica de la Investigación en Entornos Virtuales</p>
+  </footer>
+
+</body>
+</html>
